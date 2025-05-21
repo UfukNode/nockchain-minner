@@ -10,6 +10,7 @@
 
 ⚠️ Bunlar tamamen tahminidir. Açıklama geldiğinde güncelleyeceğim.
 
+---
 
 ## 1- Sistem Güncellemesi ve Gereklilikler:
 ```bash
