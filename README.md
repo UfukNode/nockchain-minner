@@ -24,6 +24,14 @@ cd nockchain
 
 ---
 
+## 4- Ortam Dosyasını Kopyala:
+
+```bash
+cp .env_example .env
+```
+
+---
+
 ## 4- Derleyiciyi (Hoonc) Kur:
 ```bash
 make install-hoonc
@@ -63,7 +71,7 @@ nockchain-wallet keygen
 
 ## 9- Makefile içine public key’i elle ekle:
 ```bash
-nano Makefile
+nano .env
 ```
 > `MINING_PUBKEY =` satırını bul ve yukarıda oluşturduğun public key'in ile değiştir.
 > Kaydetmek için: `Ctrl + X`, sonra `Y`, sonra `Enter`
