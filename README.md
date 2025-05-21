@@ -81,12 +81,12 @@ nockchain-wallet keygen
 
 ---
 
-## 9- Makefile içine public key’i elle ekle:
+## 9- .env içine public key’i ekle:
 ```bash
 nano .env
 ```
-> `MINING_PUBKEY =` satırını bul ve yukarıda oluşturduğun public key'in ile değiştir.
-> Kaydetmek için: `Ctrl + X`, sonra `Y`, sonra `Enter`
+📌`MINING_PUBKEY =` satırını bul ve yukarıda oluşturduğun public key'in ile değiştir. 
+Kaydetmek için: `Ctrl + X`, sonra `Y`, sonra `Enter`
 
 ---
 
