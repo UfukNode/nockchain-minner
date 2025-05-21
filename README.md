@@ -1,5 +1,16 @@
 # ✅ Nockchain Miner Node Kurulum Rehberi:
 
+## Sistem Gereksinimleri:
+
+| Gereksinim       | Detaylar                   |
+|------------------|----------------------------|
+| RAM              | En az 16 GB (Önerilen: 32 GB)|
+| CPU              | 6 Çekirdek (Önerilen: 8)   |
+| Depolama         | 200 GB SSD (Önerilen: 400+) |
+
+⚠️ Bunlar tamamen tahminidir. Açıklama geldiğinde güncelleyeceğim.
+
+
 ## 1- Sistem Güncellemesi ve Gereklilikler:
 ```bash
 sudo apt update && sudo apt upgrade -y
@@ -65,7 +76,7 @@ export PATH="$PATH:$(pwd)/target/release"
 ```bash
 nockchain-wallet keygen
 ```
-> Çıkan **public key**'i ve **private key**'i bir yere not al. Bu, madencilik adresindir.
+📌 Çıkan **public key**'i ve **private key**'i bir yere not al. Bu, madencilik adresindir.
 
 ---
 
@@ -94,5 +105,3 @@ make run-nockchain
 > Geri dönmek için: `screen -r nock`
 
 ---
-
-## ✅ Hepsi bu kadar. Artık node’un çalışıyor.
