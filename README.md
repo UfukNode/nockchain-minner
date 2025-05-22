@@ -51,14 +51,14 @@ make install-hoonc
 
 ---
 
-## 5- Projeyi Derle:
+## 5- Projeyi Derle (Uzun Sürebilir):
 ```bash
 make build
 ```
 
 ---
 
-## 6- Cüzdan ve Node Kurulumunu Yap (Uzun sürebilir):
+## 6- Cüzdan ve Node Kurulumunu Yap (Uzun Sürebilir):
 ```bash
 make install-nockchain-wallet
 make install-nockchain
