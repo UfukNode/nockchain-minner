@@ -116,8 +116,8 @@ screen -S nock
 ## 11- Node’u başlat:
 ```bash
 nockchain --mining-pubkey <senin_public_key> --mine
-📌`senin_public_key =` satırını yukarıda oluşturduğun public key'in ile değiştir.
 ```
+📌`senin_public_key =` satırını yukarıda oluşturduğun public key'in ile değiştir.
 
 ---
 
