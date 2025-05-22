@@ -77,7 +77,22 @@ export PATH="$PATH:$(pwd)/target/release"
 ```bash
 nockchain-wallet keygen
 ```
-📌 Çıkan **public key**'i ve **private key**'i bir yere not al. Bu, madencilik adresindir.
+📌 Çıkan `public key`'i, `private key`'i ve `memo`yu bir yere not al. Bu, madencilik adresindir.
+
+---
+
+## Cüzdanı Yedekleyip İçe Aktar:
+
+### A- Yedekle:
+```bash
+nockchain-wallet export-keys
+```
+Bu komut ile cüzdanınız `export-keys` dosyasına kaydedilecek.
+
+### B- İçe Aktar:
+```bash
+nockchain-wallet import-keys --input keys.export
+```
 
 ---
 
@@ -100,9 +115,14 @@ screen -S nock
 
 ## 11- Node’u başlat:
 ```bash
-make run-nockchain
+nockchain --mining-pubkey <senin_public_key> --mine
+📌`senin_public_key =` satırını yukarıda oluşturduğun public key'in ile değiştir.
 ```
-> `Ctrl + A`, ardından `D` ile arka plana al
-> Geri dönmek için: `screen -r nock`
+
+---
+
+##Screen Komutları:
+- `Ctrl + A`, ardından `D` ile arka plana al
+- Geri dönmek için: `screen -r nock`
 
 ---
