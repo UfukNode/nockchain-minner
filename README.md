@@ -15,7 +15,7 @@
 ## 1- Sistem Güncellemesi ve Gereklilikler:
 ```bash
 sudo apt update && sudo apt upgrade -y
-sudo apt install build-essential curl git make -y
+sudo apt install build-essential curl git make clang llvm-dev libclang-dev -y
 ```
 
 ---
