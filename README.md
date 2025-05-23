@@ -47,6 +47,7 @@ cp .env_example .env
 ## 4- Derleyiciyi (Hoonc) Kur:
 ```bash
 make install-hoonc
+export PATH="$HOME/.cargo/bin:$PATH"
 ```
 
 ---
@@ -58,10 +59,16 @@ make build
 
 ---
 
-## 6- Cüzdan ve Node Kurulumunu Yap (Uzun Sürebilir):
+## 6- Cüzdan Kur (Uzun Sürebilir):
 ```bash
 make install-nockchain-wallet
+export PATH="$HOME/.cargo/bin:$PATH"
+```
+
+Node Kurulumunu Yap (Uzun Sürebilir):
+```bash
 make install-nockchain
+export PATH="$HOME/.cargo/bin:$PATH"
 ```
 
 ---
